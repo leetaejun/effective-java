@@ -130,6 +130,7 @@ public class Main {
     // => 이유?
     // 불공변 자료형이 문제가 되는 경우(위의 union처럼)가 있다-> 좀 더 유연성있게 만들기 위한게 한정적 와일드카드
     // wildcards라고 해서 다 넣는게 아니라 null 빼곤 다 안됨(p.155)
+    // PECS stands for producer-extends, consumer-super.
 
     // 규칙29
     // Consider typesafe heterogeneous containers
